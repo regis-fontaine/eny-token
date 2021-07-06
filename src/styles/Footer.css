@@ -1,0 +1,55 @@
+.footer-container {
+    width: 100%;
+    height: 200px;
+    padding: 0 95px;
+    border-radius: 15px 15px 0 0;
+
+    background-color: #1D1C1E;
+    position: relative;
+    z-index: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo-footer {
+    width: 200px;
+    height: 84px;
+    background-image: url("../public/img/logo-nav.svg");
+}
+
+.icons-footer {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #F2CE14;
+    border-radius: 2px;
+}
+
+.discord {
+    background-image: url("../public/img/discord.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.telegram {
+    background-image: url("../public/img/telegram.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter {
+    background-image: url("../public/img/twitter.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

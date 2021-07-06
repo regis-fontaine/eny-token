@@ -2,6 +2,7 @@ import React from 'react'
 import illustration from '../public/img/uillustration.png'
 import Button from '../components/Button'
 import Card from '../components/Card'
+import CardNews from '../components/CardNews'
 import Timeline from '../components/Timeline'
 
 const Landing = () => {
@@ -71,6 +72,28 @@ const Landing = () => {
                     <div className={"timeline-container"} >
                         <Timeline />
                     </div>
+                </section>
+
+                {/* News */}
+                <section className={"news-eny"}>
+                    <div className={"eny-title-container"} >
+                        <h2>News</h2>
+                        <p className={"eny-subtitle"} >News.News.News.News.News.News.News</p>
+                    </div>
+                    <div className={"cards-container"} >
+                        <CardNews title={"Title"} subt="Subtitle" desc={"Lancement sur les chapeaux de roues les gens 🔥 Préparer vos sous-sous 💸"} />
+                        <CardNews title={"Title"} subt="Subtitle" desc={"Lancement sur les chapeaux de roues les gens 🔥 Préparer vos sous-sous 💸"} />
+                        <CardNews title={"Title"} subt="Subtitle" desc={"Lancement sur les chapeaux de roues les gens 🔥 Préparer vos sous-sous 💸"} />
+                    </div>
+                </section>
+
+                {/* White Paper */}
+                <section className={"whitepaper-eny"} >
+                    <div className={"eny-title-container"} >
+                        <h2>White Paper</h2>
+                        <p className={"eny-subtitle"} >WhitePaper.WhitePaper.WhitePaper.WhitePaper.WhitePaper.WhitePaper.WhitePaper</p>
+                    </div>
+                    <Button name="White Paper" href="#" />
                 </section>
             </main>
         </>
