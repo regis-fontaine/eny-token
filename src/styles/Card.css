@@ -1,0 +1,14 @@
+.eny-card-container{
+    width: 75%;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.eny-card-container p{
+    padding: 0 32px;
+    line-height: 20px;
+}
