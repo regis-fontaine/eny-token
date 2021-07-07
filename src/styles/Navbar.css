@@ -26,3 +26,9 @@
     font-weight: 500;
     line-height: 22px;
 }
+
+@media screen and (max-width: 768px) {
+    #navbar-desktop{
+        display: none;
+    }
+}

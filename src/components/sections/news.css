@@ -5,9 +5,8 @@
 
 #news-eny{
     width: 100%;
-    height: 420px;
+    min-height: 420px;
     margin: 250px 0 0;
-    padding: 0 95px;
     text-align: center;
     background-color: #fff;
     display: flex;
@@ -15,3 +14,4 @@
     justify-content: space-between;
     align-items: center;
 }
+
