@@ -93,7 +93,21 @@ main {}
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
+
+.about-eny:before{
+    position: absolute;
+    left: 0;
+    content: url("../public/img/yellow-wave-l.svg");
+}
+
+.about-eny:after{
+    position: absolute;
+    right: 0;
+    content: url("../public/img/yellow-wave-r.svg");
+}
+
 
 .eny-title-container {}
 

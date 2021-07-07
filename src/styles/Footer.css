@@ -1,7 +1,7 @@
 .footer-container {
     width: 100%;
     height: 200px;
-    padding: 0 95px;
+    padding: 0 95px 20px;
     border-radius: 15px 15px 0 0;
 
     background-color: #1D1C1E;
@@ -28,27 +28,25 @@
 .icon {
     width: 30px;
     height: 30px;
-    margin-left: 10px;
-    background-color: #F2CE14;
-    border-radius: 2px;
+    margin-left: 20px;
 }
 
 .discord {
-    background-image: url("../public/img/discord.svg");
+    background-image: url("../public/img/discord-yellow.svg");
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .telegram {
-    background-image: url("../public/img/telegram.svg");
+    background-image: url("../public/img/telegram-yellow.svg");
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .twitter {
-    background-image: url("../public/img/twitter.svg");
+    background-image: url("../public/img/twitter-yellow.svg");
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
