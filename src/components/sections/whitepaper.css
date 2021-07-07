@@ -1,0 +1,18 @@
+
+/* 
+* Whitepaper
+*/
+
+
+#whitepaper-eny{
+    width: 800px;
+    height: 210px;
+    padding: 0 95px;
+    margin:250px auto -80px;
+    background-color: #F2CE14;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
