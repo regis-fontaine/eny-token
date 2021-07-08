@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 import Hero from '../components/sections/Hero'
@@ -13,16 +12,13 @@ import Whitepaper from '../components/sections/Whitepaper'
 const Landing = () => {
     return (
         <>
-            <Navbar />
 
             <Hero />
             <About />
             <Roadmap />
             <News />
             <Whitepaper />
-            
             <Footer />
-
         </>
     );
 }
