@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const Button = ({ name, href }) => {
+const Button = ({ name, to, classSup }) => {
     return (
         <>
-            <button className={"eny-button"}>
-                <a href={href}>{name}</a>
-            </button>
+            <Link to={to}>
+                <button className={classSup," eny-button"}>
+                    {name}
+                </button>
+            </Link>
         </>
     );
 }

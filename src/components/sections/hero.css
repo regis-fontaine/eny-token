@@ -2,7 +2,7 @@
 * Hero
 */
 
-.hero-eny {
+#hero-eny {
     width: 100%;
     height: 640px;
     margin: 42px 0 0;
@@ -38,7 +38,7 @@
     padding: 30px 0;
 }
 
-.hero-eny img {
+#hero-eny img {
     max-width: 370px;
     max-height: 370px;
 }
@@ -76,7 +76,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hero-eny{
+    #hero-eny{
         display: none;
     }
 }

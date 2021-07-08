@@ -12,7 +12,7 @@ const Whitepaper = () => {
                     <h2>White Paper</h2>
                     <p className={"eny-subtitle"} >WhitePaper.WhitePaper.WhitePaper.WhitePaper.WhitePaper</p>
                 </div>
-                <Button name="White Paper" href="#" />
+                <Button name="White Paper" to={"/"} />
             </section>
         </>
     );

@@ -7,14 +7,14 @@ const Hero = () => {
     return (
         <>
             {/* Hero */}
-            <section className={"hero-eny"}>
+            <section id={"hero-eny"}>
                 <div className={"hero-container"} >
                     <div className={"col-r"} >
                         <h1>En Y, le token qui cabre sur le marché ! </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat bibendum dolor ut consequat. Nam commodo tortor id tortor tincidunt maximus. </p>
                         <div className={"hero-btn-container"}>
-                            <Button name="Get started" href="#" />
-                            <Button name="White Paper" href="#" />
+                            <Button name="Get started" to={"/dapp"} />
+                            <Button name="White Paper" to={"/"} />
                         </div>
                     </div>
                     <div className={"col-l"} >
